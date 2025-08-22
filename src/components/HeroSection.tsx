@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle, Star } from "lucide-react";
 import heroImage from "@/assets/hero-homes.jpg";
+import PropertySlider from "@/components/PropertySlider";
 
 const HeroSection = () => {
   return (
@@ -40,6 +41,11 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-2xl leading-relaxed">
             Your one-stop solution for all tenant property needs with nationwide vendor network serving multiple states across the USA.
           </p>
+
+          {/* Property Slider */}
+          <div className="mb-8">
+            <PropertySlider />
+          </div>
 
           {/* Key Benefits */}
           <div className="flex flex-wrap gap-4 mb-8">
