@@ -42,8 +42,8 @@ const HeroSection = () => {
             Your one-stop solution for all tenant property needs with nationwide vendor network serving multiple states across the USA.
           </p>
 
-          {/* Property Slider */}
-          <div className="mb-8">
+          {/* Property Slider - Full Page */}
+          <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
             <PropertySlider />
           </div>
 

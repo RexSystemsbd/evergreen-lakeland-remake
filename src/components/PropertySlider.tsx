@@ -30,25 +30,25 @@ const PropertySlider = () => {
   ];
 
   return (
-    <div className="w-full max-w-4xl mx-auto">
-      <Carousel className="w-full">
-        <CarouselContent>
+    <div className="w-full h-[60vh] md:h-[70vh]">
+      <Carousel className="w-full h-full">
+        <CarouselContent className="h-full">
           {slides.map((slide, index) => (
-            <CarouselItem key={index}>
-              <Card className="border-0 bg-transparent">
-                <CardContent className="p-0">
-                  <div className="relative rounded-2xl overflow-hidden shadow-elegant">
+            <CarouselItem key={index} className="h-full">
+              <Card className="border-0 bg-transparent h-full">
+                <CardContent className="p-0 h-full">
+                  <div className="relative h-full w-full rounded-2xl overflow-hidden shadow-elegant">
                     <img
                       src={slide.image}
                       alt={slide.title}
-                      className="w-full h-[300px] md:h-[400px] object-cover"
+                      className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-xl md:text-2xl font-bold mb-2">
+                    <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 text-white">
+                      <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">
                         {slide.title}
                       </h3>
-                      <p className="text-white/90 text-sm md:text-base">
+                      <p className="text-white/90 text-base md:text-lg lg:text-xl">
                         {slide.description}
                       </p>
                     </div>
@@ -58,8 +58,8 @@ const PropertySlider = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-4" />
-        <CarouselNext className="right-4" />
+        <CarouselPrevious className="left-6 bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30" />
+        <CarouselNext className="right-6 bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30" />
       </Carousel>
     </div>
   );
