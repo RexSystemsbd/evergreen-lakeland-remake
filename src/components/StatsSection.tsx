@@ -4,25 +4,25 @@ const StatsSection = () => {
   const stats = [
     {
       icon: TrendingUp,
-      number: "10+",
+      number: "15+",
       label: "Years Industry Experience",
       description: "Proven track record in property management"
     },
     {
       icon: Wrench,
-      number: "60+",
+      number: "50+",
       label: "Service Types Provided",
       description: "Comprehensive maintenance solutions"
     },
     {
       icon: MapPin,
-      number: "05",
+      number: "15",
       label: "US States Covered",
       description: "Extensive regional coverage"
     },
     {
       icon: Award,
-      number: "10,000+",
+      number: "5,000+",
       label: "Field Services Delivered",
       description: "Successfully completed projects"
     }

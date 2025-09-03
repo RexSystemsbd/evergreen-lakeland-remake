@@ -33,7 +33,7 @@ const HeroSection = () => {
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
             Comprehensive Home
-            <span className="block text-primary-glow">Repair & Maintenance</span>
+            <span className="block ">Repair & Maintenance</span>
           </h1>
 
           {/* Subheadline */}
@@ -44,10 +44,10 @@ const HeroSection = () => {
           {/* Key Benefits */}
           <div className="flex flex-wrap gap-4 mb-8">
             {[
-              "10+ Years Experience",
-              "60+ Service Types",
-              "5 US States Covered",
-              "10,000+ Services Delivered"
+              "15+ Years Experience",
+              "50+ Service Types",
+              "15 US States Covered",
+              "5,000+ Services Delivered"
             ].map((benefit) => (
               <div key={benefit} className="flex items-center space-x-2 bg-card/10 backdrop-blur-sm rounded-full px-4 py-2 border border-primary-foreground/20">
                 <CheckCircle className="h-4 w-4 text-primary-glow" />
@@ -65,7 +65,7 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 text-lg px-8 py-6"
+              className="border-primary-foreground/30 text-primary hover:bg-primary-foreground/10 text-lg px-8 py-6"
             >
               View Services
             </Button>

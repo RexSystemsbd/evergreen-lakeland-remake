@@ -1,23 +1,25 @@
-import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import VideoSection from "@/components/VideoSection";
 import StatsSection from "@/components/StatsSection";
 import ServicesSection from "@/components/ServicesSection";
 import ProcessSection from "@/components/ProcessSection";
 import ContactSection from "@/components/ContactSection";
-import Footer from "@/components/Footer";
+import AboutUs from "@/components/AboutUs";
+import PropertyPreservation from "./PropertyPreservation";
+import PropertyRepairMaintenance from "./PropertyRepairMaintenance";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Header />
       <HeroSection />
       <VideoSection />
+      <AboutUs />
       <StatsSection />
       <ServicesSection />
       <ProcessSection />
+      <PropertyPreservation />
+      <PropertyRepairMaintenance />
       <ContactSection />
-      <Footer />
     </div>
   );
 };

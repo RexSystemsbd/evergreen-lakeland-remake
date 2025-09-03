@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { 
@@ -12,6 +13,87 @@ import {
   DollarSign,
   Shield
 } from "lucide-react";
+
+// Modal component
+const ImageModal = ({ imageUrl, onClose }) => {
+  if (!imageUrl) return null;
+
+  return (
+    <div 
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75"
+      onClick={onClose}
+    >
+      <div 
+        className="relative max-w-4xl max-h-[90vh] p-4 rounded-lg overflow-hidden"
+        onClick={e => e.stopPropagation()}
+      >
+        <img 
+          src={imageUrl} 
+          alt="Enlarged residential service" 
+          className="max-w-full max-h-full rounded-lg"
+        />
+        <Button 
+          variant="ghost" 
+          onClick={onClose} 
+          className="absolute top-2 right-2 text-white bg-black bg-opacity-50 hover:bg-opacity-75"
+        >
+          Close
+        </Button>
+      </div>
+    </div>
+  );
+};
+
+// Image Gallery Component
+const ImageGallery = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const images = [
+    { src: 'http://googleusercontent.com/image_collection/image_retrieval/7347661432810971982_0' },
+    { src: 'http://googleusercontent.com/image_collection/image_retrieval/7347661432810971982_1' },
+    { src: 'http://googleusercontent.com/image_collection/image_retrieval/7347661432810971982_2' },
+    { src: 'http://googleusercontent.com/image_collection/image_retrieval/7347661432810971982_3' }
+  ];
+
+  const handleImageClick = (image) => {
+    setSelectedImage(image.src);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedImage(null);
+  };
+
+  return (
+    <section id="gallery" className="py-20 bg-gradient-subtle">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            On-Site Residential Services Gallery
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            A look at our team in action, providing professional property maintenance services.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {images.map((image, index) => (
+            <div 
+              key={index}
+              className="group cursor-pointer rounded-lg overflow-hidden shadow-card hover:shadow-elegant transition-spring"
+              onClick={() => handleImageClick(image)}
+            >
+              <img 
+                src={image.src}
+                alt={`Residential service ${index + 1}`}
+                className="w-full h-48 object-cover object-center transform group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+      <ImageModal imageUrl={selectedImage} onClose={handleCloseModal} />
+    </section>
+  );
+};
 
 const ServicesSection = () => {
   const services = [
@@ -141,4 +223,11 @@ const ServicesSection = () => {
   );
 };
 
-export default ServicesSection;
+export default function HomeWithGallery() {
+  return (
+    <>
+      <ImageGallery />
+      <ServicesSection />
+    </>
+  );
+}
