@@ -14,6 +14,23 @@ import {
   Shield
 } from "lucide-react";
 
+import image1 from "@/assets/images/image1.jpeg";
+import image2 from "@/assets/images/image2.jpg";
+import image3 from "@/assets/images/image3.jpg";
+import image4 from "@/assets/images/image4.jpg";
+import image5 from "@/assets/images/image5.jpg";
+import image6 from "@/assets/images/image6.jpg";
+import image7 from "@/assets/images/image7.jpg";
+import image8 from "@/assets/images/image8.jpeg";
+import image9 from "@/assets/images/image9.jpeg";
+import image10 from "@/assets/images/image10.jpeg";
+import image11 from "@/assets/images/image11.jpeg";
+import image12 from "@/assets/images/image12.jpeg";
+import image13 from "@/assets/images/image13.jpeg";
+
+
+
+
 // Modal component
 const ImageModal = ({ imageUrl, onClose }) => {
   if (!imageUrl) return null;
@@ -35,7 +52,7 @@ const ImageModal = ({ imageUrl, onClose }) => {
         <Button 
           variant="ghost" 
           onClick={onClose} 
-          className="absolute top-2 right-2 text-white bg-black bg-opacity-50 hover:bg-opacity-75"
+          className="absolute top-4 right-4 text-white bg-black bg-opacity-50 hover:bg-opacity-75"
         >
           Close
         </Button>
@@ -44,15 +61,24 @@ const ImageModal = ({ imageUrl, onClose }) => {
   );
 };
 
-// Image Gallery Component
 const ImageGallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
+  // 2. Use the imported variables in your images array
   const images = [
-    { src: 'http://googleusercontent.com/image_collection/image_retrieval/7347661432810971982_0' },
-    { src: 'http://googleusercontent.com/image_collection/image_retrieval/7347661432810971982_1' },
-    { src: 'http://googleusercontent.com/image_collection/image_retrieval/7347661432810971982_2' },
-    { src: 'http://googleusercontent.com/image_collection/image_retrieval/7347661432810971982_3' }
+    { src: image1 },
+    { src: image2 },
+    { src: image3 },
+    { src: image4 },
+    { src: image5 },
+    { src: image6 },
+    { src: image7 },
+    { src: image8 },
+    { src: image9 },
+    { src: image10 },
+    { src: image11 },
+    { src: image12 },
+    { src: image13 },
   ];
 
   const handleImageClick = (image) => {
@@ -94,6 +120,7 @@ const ImageGallery = () => {
     </section>
   );
 };
+
 
 const ServicesSection = () => {
   const services = [

@@ -26,7 +26,7 @@ const HeroSection = () => {
               ))}
             </div>
             <span className="text-primary-foreground/90 text-sm font-medium">
-              Trusted by Leading Preservation Companies
+              Trusted Partnership with Homeowners and Property Management Companies.
             </span>
           </div>
 
@@ -44,10 +44,10 @@ const HeroSection = () => {
           {/* Key Benefits */}
           <div className="flex flex-wrap gap-4 mb-8">
             {[
-              "15+ Years Experience",
-              "50+ Service Types",
-              "15 US States Covered",
-              "5,000+ Services Delivered"
+              "50 Extensive Field Services",
+              "15 Homeowners Served",
+              "500 Counties Served",
+              "10 Tech Property Solutions"
             ].map((benefit) => (
               <div key={benefit} className="flex items-center space-x-2 bg-card/10 backdrop-blur-sm rounded-full px-4 py-2 border border-primary-foreground/20">
                 <CheckCircle className="h-4 w-4 text-primary-glow" />
@@ -56,20 +56,22 @@ const HeroSection = () => {
             ))}
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-elegant text-lg px-8 py-6">
-              Get Free Quote
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-primary-foreground/30 text-primary hover:bg-primary-foreground/10 text-lg px-8 py-6"
+          <div className="flex flex-col sm:flex-row gap-4 justify-start">
+            <a 
+              href="#preservation" 
+              className="inline-flex items-center justify-center rounded-lg px-8 py-4 text-base font-semibold transition-colors duration-300 bg-primary-foreground text-primary hover:bg-primary-dark shadow-elegant transform hover:scale-105"
             >
-              View Services
-            </Button>
+              Property Preservation
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </a>
+            <a
+              href="#repair-maintenance"
+              className="inline-flex items-center justify-center rounded-lg px-8 py-4 text-base font-semibold transition-colors duration-300 border border-border-primary bg-primary-foreground text-primary hover:bg-muted-background hover:text-primary-dark hover:scale-105"
+            >
+              Property Repair & Maintenance
+            </a>
           </div>
+              
         </div>
       </div>
 

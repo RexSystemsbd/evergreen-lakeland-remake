@@ -8,6 +8,8 @@ import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import PropertyPreservation from "./pages/PropertyPreservation";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +22,9 @@ const App = () => (
         <Header />{" "}
         <Routes>
           <Route path="/" element={<Index />} />
+          
+                    <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="terms-conditions" element={<TermsConditions />} />
           
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -76,7 +76,7 @@ const AboutUs = () => {
             <div className="w-full max-w-lg h-96 bg-gray-200 rounded-3xl shadow-elegant overflow-hidden">
               {/* This is where you would place an image of your team, a project, or a professional graphic */}
               <img 
-                src="https://via.placeholder.com/800x600.png?text=Our+Professional+Team" 
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
                 alt="Lakeland Home Management Team" 
                 className="w-full h-full object-cover"
               />

@@ -74,15 +74,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary-foreground/60" />
-                <span className="text-primary-foreground/80">(555) 123-4567</span>
+                <span className="text-primary-foreground/80">(863) 614-0369</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary-foreground/60" />
-                <span className="text-primary-foreground/80">info@lakelandhomemgt.com</span>
+                <span className="text-primary-foreground/80">jobs@lakelandhomemgt.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary-foreground/60" />
-                <span className="text-primary-foreground/80">5 US States Coverage</span>
+                <span className="text-primary-foreground/80">Tampa, FL 33647</span>
               </div>
             </div>
           </div>
@@ -94,8 +94,8 @@ const Footer = () => {
             © 2024 Lakeland Home Management. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-primary-foreground/60">
-            <a href="#" className="hover:text-primary-foreground transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary-foreground transition-colors">Terms of Service</a>
+            <a href="/privacy-policy" className="hover:text-primary-foreground transition-colors">Privacy Policy</a>
+            <a href="/terms-conditions" className="hover:text-primary-foreground transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

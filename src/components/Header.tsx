@@ -1,4 +1,6 @@
 import { Home } from "lucide-react";
+import { Link } from "react-router-dom";
+import logo from "@/assets/logo/lakeland.png";
 
 const Header = () => {
   return (
@@ -23,12 +25,20 @@ const Header = () => {
 
           {/* Center Logo */}
           <div className="flex items-center space-x-3">
-            <div className="flex items-center justify-center w-8 h-8 bg-primary-foreground rounded-md">
+            {/* <div className="flex items-center justify-center w-8 h-8 bg-primary-foreground rounded-md">
               <Home className="h-5 w-5 text-primary" />
             </div>
             <div className="text-center">
               <span className="text-xl font-bold text-primary-foreground tracking-tight">Lakeland Home Management</span>
-            </div>
+            </div> */}
+                         {/* Logo */}
+          <Link to="/" className="flex items-center">
+            <img
+              src={logo}
+              alt="Lakeland Home Management, LLC"
+              className=" w-36 my-4"
+            />
+          </Link>
           </div>
 
           {/* Right Navigation */}
