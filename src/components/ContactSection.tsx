@@ -44,11 +44,10 @@ const ContactSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Get Your Free Quote Today
+            We Would Love To Assist You
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to transform your property? Contact us for professional
-            maintenance and repair services.
+            Contact us for professional maintenance and repair services.
           </p>
         </div>
 
@@ -96,7 +95,7 @@ const ContactSection = () => {
                   </label>
                   <Input
                     type="tel"
-                    placeholder="(555) 123-4567"
+                    placeholder="Number XXX-XXX-XXXX"
                     className="border-border"
                   />
                 </div>
@@ -125,9 +124,9 @@ const ContactSection = () => {
                     <i>
                       By checking this box, I consent to receive text messages
                       related to notifications from Lakeland Home Management.
-                      Messages and data rates may apply. Reply HELP to (718)
-                      878-1443 for assistance. Read our{" "}
-                      <a
+                      Messages and data rates may apply. Reply HELP to (863)
+                      614-0369 for assistance. Read our{" "}
+                      <a  
                         href="/privacy-policy"
                         className="text-blue-500 underline"
                       >

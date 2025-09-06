@@ -129,17 +129,7 @@ const PropertyPreservation = () => {
             ))}
           </div>
         </div>
-
-        {/* CTA */}
-        <div className="text-center mt-16">
-          <Button 
-            size="lg" 
-            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-elegant text-lg px-8 py-6"
-          >
-            Request a Preservation Quote
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </div>
+        {/* CTA */}       
       </div>
     </section>
   );

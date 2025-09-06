@@ -32,10 +32,10 @@ const VideoSection = () => {
           
           <div className="mt-8 text-center">
             <h3 className="text-xl font-semibold text-foreground mb-2">
-              Evergreen Lakeland Property Showcase
-            </h3>
+              Residential Property Maintenance 
+                         </h3>
             <p className="text-muted-foreground">
-              Discover the beauty and care we put into every property.
+              Lakeland Home Inspect, TroubleShoot, Bid and Repair any SFR Property Needs.
             </p>
           </div>
         </div>

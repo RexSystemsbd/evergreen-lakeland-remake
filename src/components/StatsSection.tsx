@@ -35,7 +35,7 @@ const StatsSection = () => {
           {/* Left Side: Title & Description */}
           <div className="text-center lg:text-left mb-12 lg:mb-0 lg:w-1/2">
             <h2 className="text-4xl lg:text-5xl font-extrabold text-foreground mb-4 leading-tight">
-              Your Dependable Regional Service Partner
+              Your Reliable Contractor in Major Markets 
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0">
               Leader in Property Field Services with proven expertise and nationwide reach.

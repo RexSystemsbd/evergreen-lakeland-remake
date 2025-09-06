@@ -8,13 +8,13 @@ const AboutUs = () => {
           {/* Left Side: Text Content */}
           <div className="lg:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              About Lakeland Home Management
+              About Lakeland Home
             </h2>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
               Founded on the principles of quality, integrity, and reliability, Lakeland Home Management has grown to become a trusted leader in the home preservation and maintenance industry. With over a decade of experience, we are dedicated to keeping your investments in perfect condition.
             </p>
             
-            <p className="text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
               Our journey began with a simple mission: to provide a one-stop solution for all tenant property needs. We have built a robust nationwide network of vendors, allowing us to serve multiple states across the USA with an extensive range of services. From routine handyman tasks to complex renovations, our team is equipped to handle it all with professionalism and expertise.
             </p>
 

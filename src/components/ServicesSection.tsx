@@ -23,11 +23,9 @@ import image6 from "@/assets/images/image6.jpg";
 import image7 from "@/assets/images/image7.jpg";
 import image8 from "@/assets/images/image8.jpeg";
 import image9 from "@/assets/images/image9.jpeg";
-import image10 from "@/assets/images/image10.jpeg";
+import image10 from "@/assets/images/image10.jpg";
 import image11 from "@/assets/images/image11.jpeg";
-import image12 from "@/assets/images/image12.jpeg";
-import image13 from "@/assets/images/image13.jpeg";
-
+import image12 from "@/assets/images/image12.jpg";
 
 
 
@@ -77,8 +75,7 @@ const ImageGallery = () => {
     { src: image9 },
     { src: image10 },
     { src: image11 },
-    { src: image12 },
-    { src: image13 },
+    { src: image12 }
   ];
 
   const handleImageClick = (image) => {
@@ -203,14 +200,7 @@ const ServicesSection = () => {
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   {service.description}
-                </p>
-                <Button 
-                  variant="ghost" 
-                  className="p-0 h-auto text-primary hover:text-primary-glow font-medium group/btn"
-                >
-                  Learn More 
-                  <ArrowRight className="ml-1 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                </Button>
+                </p>                
               </CardContent>
             </Card>
           ))}

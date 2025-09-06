@@ -97,16 +97,16 @@ const ProcessSection = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Client-Centric Focus</h4>
-              <p className="text-primary-foreground/80 text-sm">We place our clients at the heart of everything we do, offering personalized solutions and exceptional service.</p>
+              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Client-Centric Commitment</h4>
+              <p className="text-primary-foreground/80 text-sm">We prioritize our clients in every decision, ensuring solutions are tailored to their specific needs and delivered with precision.</p>
             </div>
             <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Unwavering Integrity</h4>
-              <p className="text-primary-foreground/80 text-sm">We uphold the highest ethical standards. Transparency, honesty, and accountability define our relationships.</p>
+              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Integrity Without Compromise</h4>
+              <p className="text-primary-foreground/80 text-sm">We conduct business with the utmost ethical standards, maintaining transparency, honesty, and accountability at every stage.</p>
             </div>
             <div className="text-center">
-              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Pursuit of Quality</h4>
-              <p className="text-primary-foreground/80 text-sm">We deliver superior results through premium materials and meticulous craftsmanship.</p>
+              <h4 className="text-lg font-semibold text-primary-foreground mb-2">Relentless Pursuit of Quality</h4>
+              <p className="text-primary-foreground/80 text-sm">We consistently deliver excellence through superior craftsmanship, high-grade materials, and rigorous attention to detail.</p>
             </div>
           </div>
         </div>
