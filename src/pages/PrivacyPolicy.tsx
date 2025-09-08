@@ -394,13 +394,13 @@ function PrivacyPolicy() {
                 </li>
                 <li>
                   <strong>Customer Support:</strong> Thank you for contacting us!
-                  For immediate support call: (718) 878-1443 or email
+                  For immediate support call: (863) 614-0369 or email
                   jobs@lakelandhomemgt.com. Reply STOP to opt-out.
                 </li>
                 <li>
                   <strong>Delivery Notification:</strong> Your service at 23
                   Sunnyside CT #1 has been completed. If you need further
-                  assistance, contact us at (718) 878-1443. Reply STOP to opt-out.
+                  assistance, contact us at (863) 614-0369. Reply STOP to opt-out.
                 </li>
               </ul>
             </section>
@@ -503,7 +503,7 @@ function PrivacyPolicy() {
                 <li>
                   <span>📞 Phone:</span>{" "}
                   <a href="tel:+17188781443" className="text-[#936C00] hover:underline">
-                    (718) 878-1443
+                    (863) 614-0369
                   </a>
                 </li>
                 <li>
@@ -1141,13 +1141,13 @@ function PrivacyPolicy() {
             <p>
               If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO)
               by email at <a href="mailto:jobs@lakelandhomemgt.com" className="text-[#936C00] hover:underline">jobs@lakelandhomemgt.com</a>,
-              by phone at <a href="tel:+17188781443" className="text-[#936C00] hover:underline">(718) 878-1443</a>, or contact us by post at:
+              by phone at <a href="tel:+17188781443" className="text-[#936C00] hover:underline">(863) 614-0369</a>, or contact us by post at:
             </p>
             <address className="not-italic mt-2">
               Lakeland Home  Management LLC<br />
               Data Protection Officer<br />
-              23 Sunnyside CT # 1<br />
-              Brooklyn, NY 11207<br />
+              15210 Amber DR Apt#1834<br />
+              Tampra, FL 33647<br />
               United States
             </address>
           </section>

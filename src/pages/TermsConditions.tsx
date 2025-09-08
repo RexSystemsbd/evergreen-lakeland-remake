@@ -158,8 +158,7 @@ function PrivacyPolicy() {
                 </a>
               </li>
               <li>
-                <strong>Mail:</strong> 23 SunnySide CT #1, Brooklyn, New York
-                11207
+                <strong>Mail:</strong> 15210 AMBERLY DR APT 1834, Tampa, FL 33647
               </li>
             </ul>
             <p>
@@ -453,13 +452,12 @@ function PrivacyPolicy() {
                 </li>
                 <li>
                   <strong>Customer Support:</strong> Thank you for contacting
-                  us! For immediate support call: (718) 878-1443 or email
+                  us! For immediate support call: (863) 614-0369 or email
                   jobs@lakelandhomemgt.com. Reply STOP to opt-out.
                 </li>
                 <li>
-                  <strong>Delivery Notification:</strong> Your service at 23
-                  Sunnyside CT #1 has been completed. If you need further
-                  assistance, contact us at (718) 878-1443. Reply STOP to
+                  <strong>Delivery Notification:</strong> Your service at 15210 amberly dr has been completed. If you need further
+                  assistance, contact us at (863) 614-0369. Reply STOP to
                   opt-out.
                 </li>
               </ul>
@@ -567,7 +565,7 @@ function PrivacyPolicy() {
                     href="tel:+17188781443"
                     className="text-[#936C00] hover:underline"
                   >
-                    (718) 878-1443
+                    (863) 614-0369
                   </a>
                 </li>
                 <li>
