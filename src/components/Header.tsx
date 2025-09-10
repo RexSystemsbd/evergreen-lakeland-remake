@@ -10,13 +10,13 @@ const Header = () => {
           {/* Left Navigation */}
           <nav className="flex items-center space-x-8">
             <a 
-              href="#about" 
+              href="/#about" 
               className="text-sm font-medium text-primary-foreground/80 hover:text-primary-foreground transition-smooth tracking-wide uppercase"
             >
               ABOUT
             </a>
             <a 
-              href="#services" 
+              href="/#services" 
               className="text-sm font-medium text-primary-foreground/80 hover:text-primary-foreground transition-smooth tracking-wide uppercase"
             >
               SERVICES
@@ -44,7 +44,7 @@ const Header = () => {
           {/* Right Navigation */}
           <nav className="flex items-center">
             <a 
-              href="#contact" 
+              href="/#contact" 
               className="text-sm font-medium text-primary-foreground/80 hover:text-primary-foreground transition-smooth tracking-wide uppercase"
             >
               CONTACT
