@@ -94,7 +94,7 @@ const ContactSection = () => {
                     Phone
                   </label>
                   <Input
-                    type="tel"
+                    type="tel" maxLength={13}
                     placeholder="Number XXX-XXX-XXXX"
                     className="border-border"
                   />
@@ -103,19 +103,15 @@ const ContactSection = () => {
                   <label className="block text-sm font-medium text-foreground mb-2">
                     Service Needed
                   </label>
-                  <Input
-                    placeholder="e.g., Plumbing repair, Painting, General maintenance"
-                    className="border-border"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
-                    Message
-                  </label>
                   <Textarea
                     placeholder="Tell us about your property maintenance needs..."
                     className="border-border min-h-[120px]"
-                  />
+                  />                 
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-foreground mb-2">
+                    Opt-in SMS
+                  </label>                  
                 </div>
                 {/* Opt-in SMS */}
                 <div className="flex items-start gap-4">
@@ -123,7 +119,7 @@ const ContactSection = () => {
                   <label htmlFor="optin" className="text-gray-700 text-sm ">
                     <i>
                       By checking this box, I consent to receive text messages
-                      related to notifications from Lakeland Home Management.
+                      related to notifications from Lakeland Home.
                       Messages and data rates may apply. Reply HELP to (863)
                       614-0369 for assistance. Read our{" "}
                       <a  
