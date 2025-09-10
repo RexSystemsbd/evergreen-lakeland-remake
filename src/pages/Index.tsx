@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import HeroSection from "@/components/HeroSection";
 import VideoSection from "@/components/VideoSection";
 import StatsSection from "@/components/StatsSection";
@@ -9,6 +12,19 @@ import PropertyPreservation from "./PropertyPreservation";
 import PropertyRepairMaintenance from "./PropertyRepairMaintenance";
 
 const Index = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const targetId = location.hash.replace("#", "");
+      const el = document.getElementById(targetId);
+      if (el) {
+        // smooth scroll when hash is present
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <div className="min-h-screen">
       <HeroSection />
@@ -19,7 +35,10 @@ const Index = () => {
       <ProcessSection />
       <PropertyPreservation />
       <PropertyRepairMaintenance />
-      <ContactSection />
+      {/* 👇 add the id here so #contact works */}
+      <div id="contact">
+        <ContactSection />
+      </div>
     </div>
   );
 };
