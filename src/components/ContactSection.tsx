@@ -118,10 +118,8 @@ const ContactSection = () => {
                   <input type="checkbox" id="optin" className="mt-1" />
                   <label htmlFor="optin" className="text-gray-700 text-sm ">
                     <i>
-                      By checking this box, I consent to receive text messages
-                      related to notifications from Lakeland Home.
-                      Messages and data rates may apply. Reply HELP to (863)
-                      614-0369 for assistance. Read our{" "}
+                      By checking this box, I consent to receive text messages related to notifications from Lakeland Home. Message frequency varies (1-4/day). 
+                      Message & data rates may apply. Reply HELP to (863) 614-0369 for assistance or Reply STOP to opt-out any time. Read our{" "}
                       <a  
                         href="/privacy-policy"
                         className="text-blue-500 underline"
