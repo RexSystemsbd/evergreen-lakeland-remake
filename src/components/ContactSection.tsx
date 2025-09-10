@@ -203,7 +203,7 @@ const ContactSection = () => {
                   <p className="text-muted-foreground">
                     We serve multiple states
                   </p>
-                  <p className="text-primary font-medium">15210 Ample DR APT#1834, Tampa, FL 33647</p>
+                  <p className="text-primary font-medium">15210 Ample DR APT #1834, Tampa, FL 33647</p>
                 </div>
               </div>
 
