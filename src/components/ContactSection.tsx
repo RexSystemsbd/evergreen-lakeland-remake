@@ -84,7 +84,7 @@ const ContactSection = () => {
                     Email
                   </label>
                   <Input
-                    type="email"
+                    type="email" maxLength={50}
                     placeholder="your.email@example.com"
                     className="border-border"
                   />
@@ -203,7 +203,7 @@ const ContactSection = () => {
                   <p className="text-muted-foreground">
                     We serve multiple states
                   </p>
-                  <p className="text-primary font-medium">Tampa, FL 33647</p>
+                  <p className="text-primary font-medium">15210 Ample DR APT#1834, Tampa, FL 33647</p>
                 </div>
               </div>
 
