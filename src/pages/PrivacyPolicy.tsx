@@ -531,7 +531,7 @@ function PrivacyPolicy() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Lakeland Home  Help
+                    Lakeland Home Help
                   </a>
                   . Visit:{" "}
                   <a
@@ -1114,16 +1114,6 @@ function PrivacyPolicy() {
 
 
 
-
-
-
-
-
-
-
-
-
-
           <section id="updates">
             <h2 className="text-3xl text-primary font-semibold my-6">15. Do We Make Updates To This Notice?</h2>
             <p className="mb-4"><i><strong>In Short:</strong> Yes, we will update this notice as necessary to stay compliant with relevant laws.</i></p>
@@ -1145,7 +1135,7 @@ function PrivacyPolicy() {
             <address className="not-italic mt-2">
               Lakeland Home  Management LLC<br />
               Data Protection Officer<br />
-              15210 Amber DR Apt#1834<br />
+              15210 Amberly DR Apt#1834<br />
               Tampa, FL 33647<br />
               United States
             </address>

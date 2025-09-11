@@ -12,8 +12,7 @@ const Footer = () => {
                 <Home className="h-5 w-5" />
               </div>
               <div className="flex flex-col">
-                <span className="font-bold">Lakeland Home</span>
-                <span className="text-sm opacity-90 font-bold -mt-1">Management</span>
+                <span className="font-bold">Lakeland Home</span>                
               </div>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed">
