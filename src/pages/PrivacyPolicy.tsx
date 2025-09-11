@@ -192,7 +192,7 @@ function PrivacyPolicy() {
               2. Collection of Personal Information
             </h2>
             <p>
-              Lakeland Home is committed to protecting your privacy and ensuring
+              Lakeland Home  is committed to protecting your privacy and ensuring
               compliance with{" "}
               <strong>The Campaign Registry (TCR) regulations</strong> regarding
               personal data collection and usage.
@@ -291,7 +291,7 @@ function PrivacyPolicy() {
               4. Sharing of Personal Information
             </h2>
             <p>
-              Lakeland Home is committed to protecting your privacy. We do{" "}
+              Lakeland Home  is committed to protecting your privacy. We do{" "}
               <strong>not</strong> share, sell, lease, or distribute your SMS
               consent or phone number (mobile opt-in) with any third parties or
               affiliates for marketing purposes.
@@ -307,7 +307,7 @@ function PrivacyPolicy() {
                 assist in order fulfillment, operational support, and service
                 execution. These providers{" "}
                 <strong>
-                  are contractually bound to use this data solely for Lakeland Home Management’s
+                  are contractually bound to use this data solely for Lakeland Home ’s
                   service-related purposes and not for independent marketing.
                 </strong>
               </li>
@@ -327,7 +327,7 @@ function PrivacyPolicy() {
               Business Summary & SMS Usage in Campaign
             </h3>
             <p>
-              Lakeland Home provides comprehensive on-site field services for tenants
+              Lakeland Home  provides comprehensive on-site field services for tenants
               and vacant properties of mortgage companies. Our services include
               property preservation, turnkey maintenance, renovations, and all
               types of handyman maintenance work. We focus on quick turnaround
@@ -362,7 +362,7 @@ function PrivacyPolicy() {
               </strong>
             </p>
             <p>
-              By opting in to receive text messages from Lakeland Home Management, you acknowledge
+              By opting in to receive text messages from Lakeland Home , you acknowledge
               and agree to the terms outlined below.
             </p>
 
@@ -370,7 +370,7 @@ function PrivacyPolicy() {
               <h3 className="text-xl font-semibold mt-4 mb-4">
                 1. Types of Messages We Send
               </h3>
-              <p>Lakeland Home Management may send SMS messages for the following purposes:</p>
+              <p>Lakeland Home  may send SMS messages for the following purposes:</p>
               <ul className="list-decimal list-inside space-y-4 mt-4">
                 <li>
                   <strong>Account Notifications:</strong> Important updates
@@ -389,7 +389,7 @@ function PrivacyPolicy() {
               <ul className="list-inside space-y-4 mt-2">
                 <li>
                   <strong>Account Notification:</strong> Hi Morgan, Steve from
-                  Lakeland Home will arrive on Tue, March 20, between 10:00 AM - 12:00
+                  Lakeland Home  will arrive on Tue, March 20, between 10:00 AM - 12:00
                   PM. Reply STOP to opt-out any time.
                 </li>
                 <li>
@@ -411,7 +411,7 @@ function PrivacyPolicy() {
               </h3>
               <p>
                 By providing your mobile number, you consent to receive SMS
-                messages from Lakeland Home at the number provided. Message frequency
+                messages from Lakeland Home  at the number provided. Message frequency
                 may vary, typically between 1-4 messages per day depending on the
                 nature of services requested.
               </p>
@@ -419,12 +419,11 @@ function PrivacyPolicy() {
               <h4 className="text-lg font-semibold mt-4">Example:</h4>
               <ul className="list-inside space-y-4 mt-2">
                 <li>
-                  <strong>Opt-in Keywords:</strong> <code>Start</code>
+                  <strong>Opt-in Keywords:</strong> <code><b>Start</b></code>
                 </li>
               </ul>
-
               <p>
-                Messaging frequency may vary for Lakeland Home Management. To opt-out, text{" "}
+                Messaging frequency may vary for Lakeland Home. To opt-out, text{" "}
                 <code>STOP</code>. For assistance, text <code>HELP</code> or visit{" "}
                 <a
                   className="text-[#936C00] hover:underline"
@@ -464,7 +463,7 @@ function PrivacyPolicy() {
                 3. Opt-Out & Unsubscribe
               </h3>
               <p>
-                Thank you for opting out of SMS messages from Lakeland Home Management. You will
+                Thank you for opting out of SMS messages from Lakeland Home . You will
                 not receive any further SMS communications. To opt back in at any
                 time reply <strong>START</strong>.
               </p>
@@ -475,7 +474,7 @@ function PrivacyPolicy() {
                   <strong>Opt-out keyword:</strong> Stop
                 </li>
                 <li>
-                  You will no longer receive messages from Lakeland Home Management. To opt back
+                  You will no longer receive messages from Lakeland Home . To opt back
                   in at any time reply <strong>START</strong>.
                 </li>
               </ul>
@@ -525,14 +524,14 @@ function PrivacyPolicy() {
                   <strong>Help keywords:</strong> Help
                 </li>
                 <li>
-                  Thank you for contacting Lakeland Home Management. You can find help online at{" "}
+                  Thank you for contacting Lakeland Home . You can find help online at{" "}
                   <a
                     href="https://www.lakelandhomemgt.com/"
                     className="text-[#936C00] hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Lakeland Home Help
+                    Lakeland Home  Help
                   </a>
                   . Visit:{" "}
                   <a
@@ -563,7 +562,7 @@ function PrivacyPolicy() {
               </h3>
               <p>
                 Message and data rates may apply based on your mobile carrier
-                plan. Lakeland Home is not responsible for any carrier charges
+                plan. Lakeland Home  is not responsible for any carrier charges
                 incurred.
               </p>
             </section>
@@ -573,7 +572,7 @@ function PrivacyPolicy() {
                 6. Messaging Frequency Disclosure
               </h3>
               <p>
-                By opting in to receive SMS communications from Lakeland Home Management, you
+                By opting in to receive SMS communications from Lakeland Home , you
                 acknowledge and agree to the following messaging frequency terms:
               </p>
               <ul className="list-disc list-inside space-y-4 mt-4">
@@ -598,7 +597,7 @@ function PrivacyPolicy() {
                 7. SMS Disclosure Statement
               </h3>
               <p>
-                By opting in to receive SMS messages from Lakeland Home Management, you agree to
+                By opting in to receive SMS messages from Lakeland Home , you agree to
                 receive Account notifications, Customer Care, and Delivery
                 notifications.
               </p>
@@ -647,7 +646,7 @@ function PrivacyPolicy() {
                 8. Data Privacy & Security
               </h3>
               <p>
-                Lakeland Home values your privacy. We do not sell, rent, or distribute
+                Lakeland Home  values your privacy. We do not sell, rent, or distribute
                 your phone number to third-party marketers. Your information is
                 securely stored and handled in compliance with:
               </p>
@@ -673,7 +672,7 @@ function PrivacyPolicy() {
                 9. Changes to SMS Policy
               </h3>
               <p>
-                Lakeland Home reserves the right to modify this SMS policy at any time.
+                Lakeland Home  reserves the right to modify this SMS policy at any time.
                 Continued use of our SMS services constitutes agreement to the
                 latest terms. Updates will be communicated via our website and SMS
                 notifications when applicable.
@@ -913,9 +912,9 @@ function PrivacyPolicy() {
             </p>
 
             <p className="mb-4">
-              <strong>Opting out of Lakeland Home communications:</strong> You can unsubscribe from all types of communications at any time. 
+              <strong>Opting out of Lakeland Home  communications:</strong> You can unsubscribe from all types of communications at any time. 
               You may opt out of SMS by following the confirmation message:
-              <em>"SMS Opt-Out Confirmation: You have successfully opted out of SMS messages from Lakeland Home Management. You will no longer receive further SMS communications. To opt back in, reply START at any time."</em> 
+              <em>"SMS Opt-Out Confirmation: You have successfully opted out of SMS messages from Lakeland Home . You will no longer receive further SMS communications. To opt back in, reply START at any time."</em> 
               Alternatively, you can contact us using the details provided in the section "<strong>HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</strong>" below.
             </p>
 
