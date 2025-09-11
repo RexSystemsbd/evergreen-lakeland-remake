@@ -26,7 +26,7 @@ const HeroSection = () => {
               ))}
             </div>
             <span className="text-primary-foreground/90 text-sm font-medium">
-              Trusted Partnership with Homeowners and Property Management Companies.
+              Trusted Partnership with Homeowners and Property Management Companies
             </span>
           </div>
 
@@ -46,7 +46,7 @@ const HeroSection = () => {
             {[
               "50 Extensive Field Services",
               "15 Homeowners Served",
-              "500 Counties Served",
+              "1000 Counties Served",
               "10 Tech Property Solutions"
             ].map((benefit) => (
               <div key={benefit} className="flex items-center space-x-2 bg-card/10 backdrop-blur-sm rounded-full px-4 py-2 border border-primary-foreground/20">
