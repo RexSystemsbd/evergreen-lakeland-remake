@@ -80,7 +80,7 @@ function PrivacyPolicy() {
               1. Scope of Privacy Notice
             </h2>
             <p>
-              This Privacy Notice for Lakeland Home  Management LLC (referred to as
+              This Privacy Notice for Lakeland Home Management LLC (referred to as
               "Lakeland Home," "we," "us," or "our"), describes how and why we might
               access, collect, store, use, and/or share ("process") your personal
               information when you use our services ("Services"), including when
@@ -291,7 +291,7 @@ function PrivacyPolicy() {
               4. Sharing of Personal Information
             </h2>
             <p>
-              Lakeland Home  is committed to protecting your privacy. We do{" "}
+              Lakeland Home is committed to protecting your privacy. We do{" "}
               <strong>not</strong> share, sell, lease, or distribute your SMS
               consent or phone number (mobile opt-in) with any third parties or
               affiliates for marketing purposes.
@@ -388,15 +388,18 @@ function PrivacyPolicy() {
               <h4 className=" mt-4">Example Messages:</h4>
               <ul className="list-inside space-y-4 mt-2">
                 <li>
-                  <strong>Lakeland Home: Account Notification (Appointment Reminder) </strong> Hi Tylor, Kayla from Lakeland Home will arrive on Tue, September 20, between 10:00 AM - 12:00 PM. Message frequency varies (1-4/day). 
+                  <strong>Lakeland Home: Account Notification (Appointment Reminder) </strong>
+                  Hi Tylor, Kayla from Lakeland Home will arrive on Tue, September 20, between 10:00 AM - 12:00 PM. Message frequency varies (1-4/day). 
                   Message & data rates may apply. Reply HELP for support or Reply STOP to opt-out any time.
                 </li>
                 <li>
-                  <strong>Lakeland Home: Customer Care (Service Request Acknowledgment)</strong> We’ve received your service request and are reviewing it. Our team will contact you shortly. For urgent support, call (863) 614-0369 or email jobs@lakelandhomemgt.com or visit: https://www.lakelandhomemgt.com/. Message frequency varies (1-4/day). 
+                  <strong>Lakeland Home: Customer Care (Service Request Acknowledgment)</strong> 
+                  We’ve received your service request and are reviewing it. Our team will contact you shortly. For urgent support, call (863) 614-0369 or email jobs@lakelandhomemgt.com or visit: https://www.lakelandhomemgt.com/. Message frequency varies (1-4/day). 
                   Message & data rates may apply. Reply HELP for support or Reply STOP to opt-out any time.
                 </li>
                 <li>
-                  <strong>Lakeland Home: Delivery Notification </strong>Hello Mr. John, Your service at 15210 Amberly Drive, Apt. 1834, Tampa, Florida 33647 has been completed on September 20, at 2 PM. If you need any further assistance, contact us at (863) 614-0369. Thank you for choosing Lakeland Home! Message frequency varies (1-4/day). 
+                  <strong>Lakeland Home: Delivery Notification </strong>
+                  Hello Mr. John, Your service at 15210 Amberly Drive, Apt. 1834, Tampa, Florida 33647 has been completed on September 20, at 2 PM. If you need any further assistance, contact us at (863) 614-0369. Thank you for choosing Lakeland Home! Message frequency varies (1-4/day). 
                   Message & data rates may apply. Reply HELP for support or Reply STOP to opt-out any time.  
                 </li>
               </ul>
@@ -615,7 +618,7 @@ function PrivacyPolicy() {
                   • Message frequency may vary (typically 1-4 messages/day).
                 </li>
                 <li>
-                  • Visit
+                  • Visit 
                   <a
                     href="https://www.lakelandhomemgt.com/privacy-policy"
                     className="text-[#936C00] hover:underline"
@@ -624,13 +627,13 @@ function PrivacyPolicy() {
                   >
                     Privacy Policy
                   </a>
-                  to see our privacy practices and
+                  to see our privacy practices and 
                   <a
                     href="https://www.lakelandhomemgt.com/terms-conditions"
                     className="text-[#936C00] hover:underline"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
+                  > 
                     Terms of Service
                   </a>
                   for terms and conditions.
@@ -934,8 +937,8 @@ function PrivacyPolicy() {
             </p>
 
             <p className="mb-4">
-              If you have questions or comments about your privacy rights, you may email us at 
-              <a href="mailto:jobs@lakelandhomemgt.com" className="text-[#936C00] hover:underline">jobs@lakelandhomemgt.com</a>.
+              If you have questions or comments about your privacy rights, you may email us at  
+              <a href="mailto:jobs@lakelandhomemgt.com" className="text-[#936C00] hover:underline"> jobs@lakelandhomemgt.com</a>.
             </p>
           </section>
 
@@ -1092,7 +1095,7 @@ function PrivacyPolicy() {
   </ul>
 
   <p className="my-6"><strong>How to Exercise Your Rights</strong></p>
-  <p>To exercise these rights, you can contact us by visiting <a className="text-[#936C00] hover:underline" href="https://www.lakelandhomemgt.com/contact" target="_blank">Contact Us</a>, by emailing us at <a className="text-[#936C00] hover:underline" href="mailto:jobs@lakelandhomemgt.com">jobs@lakelandhomemgt.com</a>, or by referring to the contact details at the bottom of this document.</p>
+  <p>To exercise these rights, you can contact us by visiting <a className="text-[#936C00] hover:underline" href="https://www.lakelandhomemgt.com/#contact" target="_blank">Contact Us</a>, by emailing us at <a className="text-[#936C00] hover:underline" href="mailto:jobs@lakelandhomemgt.com">jobs@lakelandhomemgt.com</a>, or by referring to the contact details at the bottom of this document.</p>
 
   <p>Under certain US state data protection laws, you can designate an authorized agent to make a request on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with applicable laws.</p>
 
@@ -1143,7 +1146,7 @@ function PrivacyPolicy() {
               Lakeland Home  Management LLC<br />
               Data Protection Officer<br />
               15210 Amber DR Apt#1834<br />
-              Tampra, FL 33647<br />
+              Tampa, FL 33647<br />
               United States
             </address>
           </section>
@@ -1157,7 +1160,7 @@ function PrivacyPolicy() {
               personal information. These rights may be limited in some circumstances by applicable law. To request to review,
               update, or delete your personal information, please visit:&nbsp;
               <a href="https://www.lakelandhomemgt.com/contact" target="_blank" rel="noopener noreferrer" className="text-[#936C00] hover:underline">
-                https://www.lakelandhomemgt.com/contact
+                https://www.lakelandhomemgt.com/#contact
               </a>.
             </p>
           </section>

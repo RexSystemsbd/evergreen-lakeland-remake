@@ -13,7 +13,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <span className="font-bold">Lakeland Home</span>
-                <span className="text-sm opacity-90 -mt-1">Management</span>
+                <span className="text-sm opacity-90 font-bold -mt-1">Management</span>
               </div>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed">
@@ -82,7 +82,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary-foreground/60" />
-                <span className="text-primary-foreground/80">Tampa, FL 33647</span>
+                <span className="text-primary-foreground/80">15210 Ample DR APT #1834 Tampa, FL 33647 </span>                                
               </div>
             </div>
           </div>
