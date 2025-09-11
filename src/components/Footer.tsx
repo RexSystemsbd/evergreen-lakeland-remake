@@ -91,7 +91,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 Lakeland Home Management. All rights reserved.
+            © 2024 Lakeland Home Management LLC. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm text-primary-foreground/60">
             <a href="/privacy-policy" className="hover:text-primary-foreground transition-colors">Privacy Policy</a>

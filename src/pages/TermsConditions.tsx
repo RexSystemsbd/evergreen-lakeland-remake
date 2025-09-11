@@ -97,7 +97,7 @@ function PrivacyPolicy() {
             </h2>
             <p>
               We are Lakeland Home Management LLC (referred to as{" "}
-              <strong>" Lakeland Home ," "we," "us,"</strong> or <strong>"our"</strong>
+              <strong>" Lakeland Home," "we," "us,"</strong> or <strong>"our"</strong>
               ).
             </p>
             <p>
@@ -446,19 +446,18 @@ function PrivacyPolicy() {
               <h4 className=" mt-4">Example Messages:</h4>
               <ul className="list-inside space-y-4 mt-2">
                 <li>
-                  <strong>Account Notification:</strong> Hi Morgan, Steve from
-                  Lakeland Home will arrive on Tue, March 20, between 10:00 AM -
-                  12:00 PM. Reply STOP to opt-out any time.
+                  <strong>Lakeland Home: Account Notification (Appointment Reminder) </strong> 
+        Hi Tylor, Kayla from Lakeland Home will arrive on Tue, September 20, between 10:00 AM - 12:00 PM. Message frequency varies (1-4/day). 
+        Message & data rates may apply. Reply HELP for support or Reply STOP to opt-out any time.
+
                 </li>
                 <li>
-                  <strong>Customer Support:</strong> Thank you for contacting
-                  us! For immediate support call: (863) 614-0369 or email
-                  jobs@lakelandhomemgt.com. Reply STOP to opt-out.
+                  <strong>Lakeland Home: Customer Care (Service Request Acknowledgment):</strong> We’ve received your service request and are reviewing it. Our team will contact you shortly. For urgent support, call (863) 614-0369 or email jobs@lakelandhomemgt.com or visit: https://www.lakelandhomemgt.com/. Message frequency varies (1-4/day). 
+                  Message & data rates may apply. Reply HELP for support or Reply STOP to opt-out any time.
                 </li>
                 <li>
-                  <strong>Delivery Notification:</strong> Your service at 15210 amberly dr has been completed. If you need further
-                  assistance, contact us at (863) 614-0369. Reply STOP to
-                  opt-out.
+                  <strong>Lakeland Home: Delivery Notification:</strong> Hello Mr. John, Your service at 15210 Amberly Drive, Apt. 1834, Tampa, Florida 33647 has been completed on September 20, at 2 PM. If you need any further assistance, contact us at (863) 614-0369. Thank you for choosing Lakeland Home! Message frequency varies (1-4/day).
+                  Message & data rates may apply. Reply HELP for support or Reply STOP to opt-out any time.
                 </li>
               </ul>
             </section>

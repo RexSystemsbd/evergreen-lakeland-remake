@@ -11,7 +11,7 @@ const AboutUs = () => {
               About Lakeland Home
             </h2>
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
-              Founded on the principles of quality, integrity, and reliability, Lakeland Home Management has grown to become a trusted leader in the home preservation and maintenance industry. With over a decade of experience, we are dedicated to keeping your investments in perfect condition.
+              Founded on the principles of quality, integrity, and reliability, Lakeland Home has grown to become a trusted leader in the home preservation and maintenance industry. With over a decade of experience, we are dedicated to keeping your investments in perfect condition.
             </p>
             
             <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
@@ -77,7 +77,7 @@ const AboutUs = () => {
               {/* This is where you would place an image of your team, a project, or a professional graphic */}
               <img 
                 src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
-                alt="Lakeland Home Management Team" 
+                alt="Lakeland Home Team" 
                 className="w-full h-full object-cover"
               />
             </div>
