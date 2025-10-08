@@ -81,7 +81,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-primary-foreground/60" />
-                <span className="text-primary-foreground/80">15210 Ample DR APT #1834 Tampa, FL 33647 </span>                                
+                <span className="text-primary-foreground/80">15210 Amberly DR APT #1834 Tampa, FL 33647 </span>                                
               </div>
             </div>
           </div>
