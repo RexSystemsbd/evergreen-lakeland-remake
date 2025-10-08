@@ -56,7 +56,7 @@ const ContactSection = () => {
           name: `${formData.firstName} ${formData.lastName}`,
           email: formData.email,
           phoneNumber: formData.phone,
-          company: "", // you can make this dynamic too
+          company: "", 
           subject: "Contact",
           body: formData.message,
         }),
